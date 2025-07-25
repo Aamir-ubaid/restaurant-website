@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"  # Folder where uploaded files will go
+public_folder: "/assets/uploads"  # Public URL for uploaded files
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - name: "site"
+        label: "Site Data"
+        file: "site.json"
+        fields:
+          - label: "Restaurant Name"
+            name: "restaurantName"
+            widget: "string"
+          - label: "Location"
+            name: "location"
+            widget: "string"
+          - label: "Contact Email"
+            name: "contactEmail"
+            widget: "string"
+          - label: "Contact Phone"
+            name: "contactPhone"
+            widget: "string"
+          - label: "Booking Info"
+            name: "bookingInfo"
+            widget: "string"
+          - label: "About"
+            name: "about"
+            widget: "markdown"
+
+  - name: "menu"
+    label: "Menu"
+    files:
+      - name: "menu"
+        label: "Menu"
+        file: "menu.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            fields:
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["Pizza", "Burger", "Pasta", "Salad", "Dessert", "Drink"]
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Ingredients"
+                name: "ingredients"
+                widget: "text"
+              - label: "Price"
+                name: "price"
+                widget: "number"
+                min: 0
+                step: 0.01
+              - label: "Image"
+                name: "image"
+                widget: "image"
