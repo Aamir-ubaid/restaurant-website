@@ -1,0 +1,14 @@
+[build]
+  # Since this is a static site built with plain HTML, no build command is needed
+  publish = ""
+  command = ""
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
