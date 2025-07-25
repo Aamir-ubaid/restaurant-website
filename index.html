@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bistro</title>
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <img src="assets/logo.png" alt="Restaurant Logo" class="logo">
+      <h1 id="restaurant-name">Delicious Bistro</h1>
+      <p id="restaurant-location">Amsterdam, Netherlands</p>
+      <a href="menu.html" class="button primary">View Menu</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        <h2>About Us</h2>
+        <div id="about-content" class="about-content">
+          <!-- About text will be injected here -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <h2>Contact &amp; Booking</h2>
+        <p><strong>Email:</strong> <span id="contact-email">info@deliciousbistro.com</span></p>
+        <p><strong>Phone:</strong> <span id="contact-phone">+31 20 123 4567</span></p>
+        <p><strong>Booking Info:</strong> <span id="booking-info">Please call or email us to reserve a table.</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> <span id="restaurant-name-footer">Delicious Bistro</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
