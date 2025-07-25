@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "category": "Pizza",
+      "name": "Margherita",
+      "ingredients": "Tomato sauce, mozzarella, basil",
+      "price": 9.99,
+      "image": "assets/uploads/pizza.jpg"
+    },
+    {
+      "category": "Burger",
+      "name": "Classic Burger",
+      "ingredients": "Beef patty, lettuce, tomato, cheese, bun",
+      "price": 11.49,
+      "image": "assets/uploads/burger.jpg"
+    },
+    {
+      "category": "Pasta",
+      "name": "Spaghetti Bolognese",
+      "ingredients": "Spaghetti, ground beef, tomato sauce, parmesan",
+      "price": 12.99,
+      "image": "assets/uploads/pasta.jpg"
+    },
+    {
+      "category": "Salad",
+      "name": "Greek Salad",
+      "ingredients": "Cucumber, tomato, feta cheese, olives, olive oil",
+      "price": 8.50,
+      "image": "assets/uploads/salad.jpg"
+    },
+    {
+      "category": "Dessert",
+      "name": "Chocolate Cake",
+      "ingredients": "Chocolate sponge, chocolate frosting, berries",
+      "price": 6.25,
+      "image": "assets/uploads/dessert.jpg"
+    },
+    {
+      "category": "Drink",
+      "name": "Fruit Cocktail",
+      "ingredients": "Mixed fruit juice, ice, fresh fruit slices",
+      "price": 4.95,
+      "image": "assets/uploads/drink.jpg"
+    }
+  ]
+}
